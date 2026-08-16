@@ -27,22 +27,30 @@ class Message(Base):
 
     conversation_id : Mapped[uuid.UUID] = mapped_column(
         UUID(as_uuid=True),
-        ForeignKey("conversations.conversation_id"),
-        index= True,
+        ForeignKey(
+            "conversations.conversation_id",
+            ondelete="CASCADE",
+        ),
+         nullable=False,
+        index=True,
     )
 
     role : Mapped[MessageRole] = mapped_column(
-        SAEnum( MessageRole),
+        SAEnum(
+            MessageRole,
+            values_callable= lambda enum: [member.value for member in enum],
+        ),
+        nullable=False,
     )
 
     content : Mapped[str] = mapped_column(
         Text,
+        nullable=False,
     )
 
     created_at : Mapped[datetime] = mapped_column(
         DateTime(timezone=True),
         server_default= func.now(),
-        onupdate= func.now(),
     )
 
     updated_at : Mapped[datetime] = mapped_column(
@@ -51,6 +59,6 @@ class Message(Base):
         onupdate= func.now(),
     )
 
-    conversations : Mapped["Conversation"] = relationship(
+    conversation : Mapped["Conversation"] = relationship(
         back_populates= "messages",
     )
