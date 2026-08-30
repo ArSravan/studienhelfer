@@ -2,9 +2,8 @@ import uuid
 import jwt
 
 from fastapi import Depends, HTTPException, status
-from sqlalchemy.orm import Session 
-
 from fastapi.security import OAuth2PasswordBearer
+from sqlalchemy.orm import Session
 
 from app.core.database import get_db
 from app.models.user import User
@@ -62,7 +61,7 @@ def get_current_user(
 
     user = db.get(User, user_id)
 
-    if user is None:
+    if user is None or not user.is_active:
         raise HTTPException(
             status_code=status.HTTP_401_UNAUTHORIZED,
             detail="Could not validate credentials",

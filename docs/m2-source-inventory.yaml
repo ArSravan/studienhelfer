@@ -1,0 +1,210 @@
+version: "1.0"
+
+sources:
+
+  - id: 1
+    title: "Student Visa"
+    url: "https://www.auswaertiges-amt.de/en/visa-service/buergerservice/faq/08-studentenvisum-606690"
+    topic:
+      - visa
+    publisher: "Federal Foreign Office"
+    authority_level: "primary"
+    jurisdiction:
+      - federal
+    format: "html"
+    language:
+      - english
+      - german
+    english_available: true
+    verified: true
+
+  - id: 2
+    title: "General Visa Information"
+    url: "https://www.auswaertiges-amt.de/de/service/visa-und-aufenthalt/visabestimmungen-allgemein"
+    topic:
+      - visa
+    publisher: "Federal Foreign Office"
+    authority_level: "primary"
+    jurisdiction:
+      - federal
+    format: "html"
+    language:
+      - german
+    english_available: false
+    verified: true
+
+  - id: 3
+    title: "Residence Permit — Customer Service for Students"
+    url: "https://www.hannover.de/Leben-in-der-Region-Hannover/Verwaltungen-Kommunen/Die-Verwaltung-der-Landeshauptstadt-Hannover/Dezernate-und-Fachbereiche-der-LHH/Finanzen%2C-Ordnung-und-Feuerwehr/Fachbereich-%C3%96ffentliche-Ordnung/Standesamt-und-Staatsangeh%C3%B6rig%C2%ADkeit/Sachgebiet-Willkommensservice/Kundenservice-f%C3%BCr-Fachkr%C3%A4fte%2C-Studierende-und-Selbstst%C3%A4ndige-sowie-deren-Familienangeh%C3%B6rige"
+    topic:
+      - residence_permit
+    publisher: "Landeshauptstadt Hannover"
+    authority_level: "primary"
+    jurisdiction:
+      - hannover
+    format: "html"
+    language:
+      - german
+    english_available: false
+    verified: true
+
+  - id: 4
+    title: "City Registration / Anmeldung"
+    url: "https://serviceportal.hannover-stadt.de/buergerservice/lebenslagen/bauen-und-wohnen-900000157-0.html"
+    topic:
+      - city_registration
+      - anmeldung
+    publisher: "Landeshauptstadt Hannover"
+    authority_level: "primary"
+    jurisdiction:
+      - hannover
+    format: "html"
+    language:
+      - german
+    english_available: false
+    verified: true
+
+  - id: 5
+    title: "University Enrollment"
+    url: "https://www.uni-hannover.de/studium/vor-dem-studium/bewerbung-zulassung/nach-der-bewerbung/einschreibung"
+    topic:
+      - enrollment
+    publisher: "Leibniz Universität Hannover"
+    authority_level: "primary"
+    jurisdiction:
+      - university
+    format: "html"
+    language:
+      - german
+    english_available: true
+    verified: true
+
+  - id: 6
+    title: "Immatrikulationsordnung"
+    url: "https://www.uni-hannover.de/fileadmin/luh/content/i-amt/antraege/gesetzeImmatrikulationsordnung_der_Gottfried_Wilhelm_Leibniz_Universitaet_Hannover.pdf"
+    topic:
+      - enrollment
+      - university_regulations
+    publisher: "Leibniz Universität Hannover"
+    authority_level: "primary"
+    jurisdiction:
+      - university
+    format: "pdf"
+    language:
+      - german
+    english_available: false
+    verified: true
+
+  - id: 7
+    title: "Semester Registration / Fees"
+    url: "https://www.uni-hannover.de/en/studium/im-studium/organising-your-studies/rueckmeldung"
+    topic:
+      - enrollment
+      - semester_registration
+      - fees
+    publisher: "Leibniz Universität Hannover"
+    authority_level: "primary"
+    jurisdiction:
+      - university
+    format: "html"
+    language:
+      - english
+    english_available: true
+    verified: true
+
+  - id: 8
+    title: "Health Insurance"
+    url: "https://www.daad.de/en/studying-in-germany/living-in-germany/health-insurance"
+    topic:
+      - health_insurance
+    publisher: "DAAD"
+    authority_level: "secondary"
+    jurisdiction:
+      - germany
+    format: "html"
+    language:
+      - english
+      - german
+    english_available: true
+    verified: true
+
+  - id: 9
+    title: "Student Working Hours — §16b AufenthG"
+    url: "https://www.gesetze-im-internet.de/aufenthg_2004/__16b.html"
+    topic:
+      - working_hours
+      - student_employment
+    publisher: "Bundesministerium der Justiz"
+    authority_level: "statute"
+    jurisdiction:
+      - federal
+    format: "html"
+    language:
+      - german
+    english_available: false
+    verified: true
+
+  - id: 10
+    title: "Student Working Hours — Government Explanation"
+    url: "https://www.make-it-in-germany.com/en/study-vocational-training/studies-in-germany/work"
+    topic:
+      - working_hours
+      - student_employment
+    publisher: "Federal Republic of Germany / Make it in Germany"
+    authority_level: "secondary"
+    jurisdiction:
+      - federal
+    format: "html"
+    language:
+      - english
+      - german
+    english_available: true
+    verified: true
+
+  - id: 11
+    title: "Student Health Insurance"
+    url: "https://gesund.bund.de/krankenversicherung-studierende"
+    topic:
+      - health_insurance
+    publisher: "Federal Government / Federal Ministry of Health"
+    authority_level: "primary"
+    jurisdiction:
+      - federal
+    format: "html"
+    language:
+      - german
+    english_available: false
+    verified: true
+
+  - id: 12
+    title: "Residence Permit — Study"
+    url: "https://www.hannover.de/Leben-in-der-Region-Hannover/Verwaltungen-Kommunen/Die-Verwaltung-der-Landeshauptstadt-Hannover/Dezernate-und-Fachbereiche-der-LHH/Finanzen%2C-Ordnung-und-Feuerwehr/Fachbereich-%C3%96ffentliche-Ordnung/Standesamt-und-Staatsangeh%C3%B6rig%C2%ADkeit/Sachgebiet-Willkommensservice/Kundenservice-f%C3%BCr-Fachkr%C3%A4fte%2C-Studierende-und-Selbstst%C3%A4ndige-sowie-deren-Familienangeh%C3%B6rige/Aufenthalt-zum-Studium"
+    topic:
+      - residence_permit
+      - student_residence
+    publisher: "Landeshauptstadt Hannover"
+    authority_level: "primary"
+    jurisdiction:
+      - hannover
+    format: "html"
+    language:
+      - german
+    english_available: false
+    verified: true
+
+  - id: 13
+    title: "Federal Registration Requirement — §17 BMG"
+    url: "https://www.gesetze-im-internet.de/bmg/__17.html"
+    topic:
+      - city_registration
+      - anmeldung
+      - registration_deadline
+    publisher: "Bundesministerium der Justiz"
+    authority_level: "statute"
+    jurisdiction:
+      - federal
+    format: "html"
+    language:
+      - german
+    english_available: false
+    verified: true
