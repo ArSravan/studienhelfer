@@ -81,7 +81,7 @@ sources:
 
   - id: 6
     title: "Immatrikulationsordnung"
-    url: "https://www.uni-hannover.de/fileadmin/luh/content/i-amt/antraege/gesetzeImmatrikulationsordnung_der_Gottfried_Wilhelm_Leibniz_Universitaet_Hannover.pdf"
+    url: "https://www.uni-hannover.de/fileadmin/luh/content/i-amt/antraege/gesetze/Immatrikulationsordnung_der_Gottfried_Wilhelm_Leibniz_Universitaet_Hannover.pdf"
     topic:
       - enrollment
       - university_regulations
