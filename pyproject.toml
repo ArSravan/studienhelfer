@@ -15,10 +15,12 @@ dependencies = [
     "pydantic-settings>=2.15.0",
     "pydantic[email]>=2.13.4",
     "pyjwt>=2.13.0",
+    "pypdf>=6.17.0",
     "python-multipart>=0.0.32",
     "pyyaml>=6.0.3",
     "requests>=2.34.2",
     "sqlalchemy>=2.0.52",
+    "trafilatura>=2.2.0",
     "uvicorn[standard]",
 ]
 
