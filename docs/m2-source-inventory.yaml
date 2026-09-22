@@ -49,8 +49,8 @@ sources:
     verified: true
 
   - id: 4
-    title: "City Registration / Anmeldung"
-    url: "https://serviceportal.hannover-stadt.de/buergerservice/lebenslagen/bauen-und-wohnen-900000157-0.html"
+    title: "City Registration / Anmeldung — Zuzug nach Hannover"
+    url: "https://serviceportal.hannover-stadt.de/buergerservice/dienstleistungen/anmeldung-einer-wohnung-zuzug-nach-hannover-900000016-0.html"
     topic:
       - city_registration
       - anmeldung
@@ -145,22 +145,21 @@ sources:
     verified: true
 
   - id: 10
-    title: "Student Working Hours — Government Explanation"
-    url: "https://www.make-it-in-germany.com/en/study-vocational-training/studies-in-germany/work"
+    title: "Student Working Hours — Bundesagentur für Arbeit Explanation"
+    url: "https://web.arbeitsagentur.de/bildung/studium/jobben-neben-dem-studium"
     topic:
       - working_hours
       - student_employment
-    publisher: "Federal Republic of Germany / Make it in Germany"
+    publisher: "Bundesagentur für Arbeit"
     authority_level: "secondary"
     jurisdiction:
       - federal
     format: "html"
     language:
-      - english
       - german
-    english_available: true
+    english_available: false
     verified: true
-
+    
   - id: 11
     title: "Student Health Insurance"
     url: "https://gesund.bund.de/krankenversicherung-studierende"
