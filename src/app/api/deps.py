@@ -1,13 +1,15 @@
 import uuid
 import jwt
 
-from fastapi import Depends, HTTPException, status
+from fastapi import Depends, HTTPException, status, Request
+
 from fastapi.security import OAuth2PasswordBearer
 from sqlalchemy.orm import Session
 
 from app.core.database import get_db
 from app.models.user import User
 from app.core.config import settings
+from app.rag.retriever import Retriever
 
 oauth2_scheme = OAuth2PasswordBearer(
     tokenUrl="auth/login"
@@ -69,3 +71,6 @@ def get_current_user(
         )
 
     return user
+
+def get_retriever(request: Request) -> Retriever:
+    return request.app.state.retriever
